@@ -1,0 +1,26 @@
+s3_config:
+    access_key: AKIAQ3EGSY42MYV3SSIV
+    secret_access_key: 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
+
+sftp_config:
+    hostname: ec2-3-250-61-179.eu-west-1.compute.amazonaws.com
+    port: 22
+    username: ubuntu
+    pem: spark.pem
+
+mysql_config:
+    hostname: testdb3.cklf8rrrcwa3.eu-west-1.rds.amazonaws.com
+    port: 3306
+    database: testdb
+    username: master
+    password: Temp1234
+
+mongodb_config:
+    uri: mongodb://ec2-3-250-61-179.eu-west-1.compute.amazonaws.com:27107
+
+redshift_config:
+    host: test.cpetdpdf4jxg.eu-west-1.redshift.amazonaws.com
+    port: 5439
+    database: dev
+    username: master
+    password: Temp1234
